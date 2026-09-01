@@ -2,7 +2,7 @@
 
 Materiais suplementares (scripts em R, base de artigos e saídas do IRaMuTeQ) associados ao artigo:
 
-> **da Silva Junior, Nivaldo.** (2026). Entre epistemologias e silêncios: uma análise crítica da produção acadêmica brasileira sobre raça e suas referências teóricas. *Tempo Social*, 38(2), 1–27. https://doi.org/10.11606/0103-2070.ts.2026.240727
+> **Silva Junior, Nivaldo da.** (2026). Entre epistemologias e silêncios: uma análise crítica da produção acadêmica brasileira sobre raça e suas referências teóricas. *Tempo Social*, 38(2), 1–27. https://doi.org/10.11606/0103-2070.ts.2026.240727
 
 - Página do artigo: https://revistas.usp.br/ts/pt_BR/article/view/240727
 - Periódico: [Tempo Social — Revista de Sociologia da USP](https://revistas.usp.br/ts) (ISSN 0103-2070)
