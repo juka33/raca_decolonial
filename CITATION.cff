@@ -8,8 +8,8 @@ abstract: >-
   Tempo Social (USP).
 type: software
 authors:
-  - family-names: "da Silva Junior"
-    given-names: "Nivaldo"
+  - family-names: "Silva Junior"
+    given-names: "Nivaldo da"
     affiliation: "Universidade Federal de São Carlos (UFSCar)"
     email: "nivaldo.junior33@gmail.com"
 license: MIT
@@ -26,8 +26,8 @@ preferred-citation:
   type: article
   title: "Entre epistemologias e silêncios: uma análise crítica da produção acadêmica brasileira sobre raça e suas referências teóricas"
   authors:
-    - family-names: "da Silva Junior"
-      given-names: "Nivaldo"
+    - family-names: "Silva Junior"
+      given-names: "Nivaldo da"
       affiliation: "Universidade Federal de São Carlos (UFSCar)"
   journal: "Tempo Social"
   volume: 38

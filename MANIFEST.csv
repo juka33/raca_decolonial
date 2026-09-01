@@ -1,9 +1,9 @@
 caminho,nome_original,extensao,tamanho_bytes,etapa,descricao,sha256_16
 .gitignore,,,308,configuracao,Exclusões do controle de versão (artefatos do R e exportações brutas de bases),47d325b4ce9a6fc1
-CITATION.cff,,cff,1519,documentacao,Metadados de citação do repositório e do artigo (Citation File Format),9d3c1254ceffc749
+CITATION.cff,,cff,1519,documentacao,Metadados de citação do repositório e do artigo (Citation File Format),f5674a24b1fa4fb0
 LICENSE,,,1610,documentacao,Licença MIT para o código e nota sobre CC BY-NC 4.0 para os demais materiais,53fa899f496dccf9
 MANIFEST.csv,,csv,0,documentacao,Este inventário: relação de todos os arquivos do repositório,
-README.md,,md,11145,documentacao,"Apresentação do repositório, estrutura, fluxo de trabalho, figuras, limitações e declaração sobre uso de IA",5144f88928d2a23a
+README.md,,md,11145,documentacao,"Apresentação do repositório, estrutura, fluxo de trabalho, figuras, limitações e declaração sobre uso de IA",fb7b79cad03dd2fa
 dados/Scopus_exported_refine_values.csv,,csv,20514,dados derivados,Valores agregados de refinamento exportados da Scopus,9eb8dfbf01661caa
 dados/autores_para_corrigir.xlsx,,xlsx,489176,1-coleta e integracao,Planilha exportada e preenchida manualmente para corrigir a grafia dos nomes de autores (coluna AU_corrigido),c7525b29597310cc
 dados/curadoria_resumos/abstracts_en.xlsx,,xlsx,15803,4-corpus,"Resumos traduzidos/corrigidos manualmente (coluna AB_traduzido), reincorporados por DOI ao corpus",cdca3cabdc163991
