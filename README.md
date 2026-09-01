@@ -44,7 +44,9 @@ Este **não** é um pacote de replicação automatizada. É um registro retrospe
 │   ├── wos_scopus_filtrados.rds     base final de artigos (objeto bibliometrix)
 │   ├── lista_artigos_para_filtragem.csv  listagem de artigos (título, autores, ano, fonte)
 │   ├── Scopus_exported_refine_values.csv valores agregados exportados da Scopus
+│   ├── autores_para_corrigir.xlsx   planilha de correspondência usada na correção de autores
 │   └── curadoria_resumos/           tabelas da revisão e tradução manual dos resumos
+├── figuras/                      figuras finais utilizadas no artigo
 ├── iramuteq/
 │   ├── corpus_iramuteq_corrigido.txt         corpus final formatado para o IRaMuTeQ
 │   └── corpus_iramuteq_corrigido_corpus_2/   saídas do IRaMuTeQ
@@ -72,6 +74,24 @@ A numeração abaixo reconstrói a sequência lógica; os nomes dos arquivos for
 
 Os scripts em `scripts/exploratorios/` (`base.R`, `ciento.R`, `bibliometria_muitobom.R`, `abstract_iramuteq.R`) correspondem a versões anteriores e a testes do pacote; são mantidos por transparência e não fazem parte do fluxo final.
 
+## Figuras
+
+A pasta `figuras/` reúne as figuras finais do artigo, geradas com `bibliometrix`/`biblioshiny` e com `ggplot2`. Os nomes foram padronizados para uso em controle de versão; o nome original de cada arquivo está registrado na coluna `nome_original` do `MANIFEST.csv`.
+
+| Arquivo | Conteúdo |
+|---|---|
+| `producao_cientifica_anual.png` | Produção científica anual do corpus |
+| `trend_topics.png` | *Trend topics* no corpus (Keywords Plus) |
+| `mapa_tematico_DE_15.png` | Mapa temático, palavras-chave dos autores, 15 termos |
+| `mapa_tematico_DE_20.png` | Mapa temático, palavras-chave dos autores, 20 termos |
+| `mapa_tematico_palavras_autor.png` | Mapa temático das palavras-chave dos autores |
+| `mapa_tematico_keywords_plus.png` | Mapa temático das Keywords Plus |
+| `three_fields_plot.png` / `_v2.png` | Diagrama de três campos (referências citadas, autores, palavras-chave) |
+| `10_autores_mais_citados.png` / `_v2.png` | Dez autores mais citados no corpus |
+| `10_trabalhos_mais_citados.png` | Dez trabalhos mais citados no corpus |
+| `obras_lelia_gonzalez_mais_citadas.png` | Obras de Lélia Gonzalez mais citadas (normalizadas) |
+| `citacoes_a_lelia_gonzalez.png` | Distribuição anual dos documentos que citam a autora |
+
 ## Ambiente
 
 Análise conduzida em R com os pacotes `bibliometrix`, `dplyr`, `readr`, `readxl`, `writexl`, `stringr`, `tidyverse`, `ggplot2` e `cld3`. A análise textual foi feita no [IRaMuTeQ](http://www.iramuteq.org/), que utiliza R e Python.
@@ -84,6 +104,7 @@ Análise conduzida em R com os pacotes `bibliometrix`, `dplyr`, `readr`, `readxl
 | Scopus (`scopus_raca.csv`) | Não | Exportação bruta sujeita à licença da base. |
 | Base final integrada (`wos_scopus_filtrados.rds`) | Sim | Objeto derivado, após merge, deduplicação, filtragem e correções manuais. |
 | Listagem de artigos (`lista_artigos_para_filtragem.csv`) | Sim | Metadados bibliográficos (título, autores, ano, fonte). |
+| Planilhas de curadoria (`autores_para_corrigir.xlsx`, `abstracts_en.xlsx`) | Sim | Tabelas de correspondência preenchidas manualmente pelo autor, insumos dos scripts 1 e 4. |
 | Tabelas de curadoria de resumos (`dados/curadoria_resumos/`) | Sim | Contêm resumos integrais tal como indexados nas bases, disponibilizados para documentar a etapa de revisão e tradução manual. |
 | Corpus e saídas do IRaMuTeQ | Sim | O corpus contém resumos pré-processados (minúsculas, sem acentos e sem pontuação). |
 
@@ -92,12 +113,20 @@ O uso dos metadados e resumos derivados de Scopus e Web of Science segue os term
 ## Licenças
 
 - **Código** (`scripts/`): [MIT](LICENSE).
-- **Documentação e produtos analíticos** (README, `MANIFEST.csv`, saídas do IRaMuTeQ): [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), em coerência com a licença do artigo.
+- **Documentação e produtos analíticos** (README, `MANIFEST.csv`, figuras, saídas do IRaMuTeQ): [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), em coerência com a licença do artigo.
 - **Metadados bibliográficos de terceiros**: direitos dos respectivos titulares e das bases de origem.
 
 ## Como citar
 
 Cite o artigo. Para citar especificamente este repositório, veja `CITATION.cff` ou use o botão "Cite this repository" no GitHub.
+
+## Declaração sobre uso de inteligência artificial
+
+A **organização e a documentação deste repositório** foram elaboradas com o auxílio de um assistente de inteligência artificial (Perplexity Computer), em setembro de 2026. O auxílio compreendeu: a curadoria e a seleção dos arquivos preservados do projeto; a definição da estrutura de pastas; a leitura dos scripts para reconstruir e descrever a sequência do fluxo de trabalho; a redação deste `README.md`; a geração do `MANIFEST.csv`; a preparação do `CITATION.cff`, do `LICENSE` e do `.gitignore`; e a publicação dos arquivos no GitHub.
+
+A **pesquisa** — formulação do problema, decisões teóricas e metodológicas, estratégia de busca nas bases, triagem e filtragem dos artigos, correções manuais de autores e referências, parâmetros das análises, interpretação dos resultados e redação do artigo — é de autoria e responsabilidade exclusivas do autor. Os scripts em `scripts/` foram escritos pelo autor durante a pesquisa e são disponibilizados na forma histórica em que foram preservados; nenhum deles foi reescrito, refatorado ou substituído na preparação deste repositório. Os dados, o corpus e as saídas analíticas aqui depositados são exatamente os produzidos durante a pesquisa, sem regeração.
+
+Nenhum resultado, referência bibliográfica ou dado deste repositório foi gerado por inteligência artificial.
 
 ## Contato
 
