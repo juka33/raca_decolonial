@@ -1,0 +1,13 @@
+[spec]
+type = spec
+lem = 1
+mineff = 10
+indice = hypergeo
+typeformes = 0
+clnb = 422
+pathout = C:\R_Projects\raca_decolonial_cientometria\data\final\corpus_iramuteq_corrigido_corpus_2\corpus_iramuteq_corrigido_spec_1
+corpus = 29dc6e1b-1713-4ffe-ab5e-b63619647007
+uuid = a1bd386d-6b1b-4ac2-a7c4-10af02ebbd90
+name = corpus_iramuteq_corrigido_spec_1
+ira = C:\R_Projects\raca_decolonial_cientometria\data\final\corpus_iramuteq_corrigido_corpus_2\corpus_iramuteq_corrigido_spec_1\Analyse.ira
+time = 0h 0m 7s

@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "Se você utilizar estes materiais, por favor cite o artigo abaixo."
+title: "Entre epistemologias e silêncios — materiais suplementares"
+abstract: >-
+  Scripts em R, base final de artigos e saídas do IRaMuTeQ associados ao artigo
+  "Entre epistemologias e silêncios: uma análise crítica da produção acadêmica
+  brasileira sobre raça e suas referências teóricas", publicado na revista
+  Tempo Social (USP).
+type: software
+authors:
+  - family-names: "da Silva Junior"
+    given-names: "Nivaldo"
+    affiliation: "Universidade Federal de São Carlos (UFSCar)"
+    email: "nivaldo.junior33@gmail.com"
+license: MIT
+repository-code: "https://github.com/juka33/raca_decolonial"
+keywords:
+  - raça
+  - cientometria
+  - epistemologias negras
+  - feminismo negro
+  - decolonialidade
+  - bibliometrix
+  - IRaMuTeQ
+preferred-citation:
+  type: article
+  title: "Entre epistemologias e silêncios: uma análise crítica da produção acadêmica brasileira sobre raça e suas referências teóricas"
+  authors:
+    - family-names: "da Silva Junior"
+      given-names: "Nivaldo"
+      affiliation: "Universidade Federal de São Carlos (UFSCar)"
+  journal: "Tempo Social"
+  volume: 38
+  issue: 2
+  start: 1
+  end: 27
+  year: 2026
+  month: 9
+  doi: "10.11606/0103-2070.ts.2026.240727"
+  issn: "0103-2070"
+  publisher:
+    name: "Universidade de São Paulo, Faculdade de Filosofia, Letras e Ciências Humanas"
+  url: "https://revistas.usp.br/ts/pt_BR/article/view/240727"
+  license: CC-BY-NC-4.0

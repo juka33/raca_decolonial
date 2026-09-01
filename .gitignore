@@ -1,0 +1,26 @@
+# R
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+.Rproj.user/
+*.Rproj.user
+.Ruserdata
+*.Rcheck/
+.httr-oauth
+
+# Exportações brutas de bases comerciais (não redistribuir)
+scopus*.csv
+scopus*.bib
+scopus*.txt
+wos*.txt
+wos*.bib
+lens-export*.csv
+oa_*.csv
+*_scielo.csv
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

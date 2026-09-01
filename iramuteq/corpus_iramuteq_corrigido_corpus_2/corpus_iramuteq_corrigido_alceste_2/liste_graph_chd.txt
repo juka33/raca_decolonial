@@ -1,0 +1,4 @@
+dendro1.png;dendrogramme à partir de chd1
+arbre_1.png;chd1
+C:\\R_Projects\\raca_decolonial_cientometria\\data\\final\\corpus_iramuteq_corrigido_corpus_2\\corpus_iramuteq_corrigido_alceste_2\\dendrogramme_1.png;Dendrogramme CHD1 - phylogram
+C:\\R_Projects\\raca_decolonial_cientometria\\data\\final\\corpus_iramuteq_corrigido_corpus_2\\corpus_iramuteq_corrigido_alceste_2\\dendrogramme_2.png;Dendrogramme CHD1 - phylogram
